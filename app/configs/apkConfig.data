@@ -1,0 +1,38 @@
+{
+	"inputDir" :  "./sample/apkinput",
+	"outputDir" : "./workspace",
+
+	"javaprotectCfg" : {
+
+		"compierLevel" : "normal",
+		"inputType" :  "apk",	
+
+		"translateClasses":[
+		    "com.*"
+		],		
+
+		"translateMethods":[
+		    "",
+		],
+
+		"keepClasses":[
+			"com.google.zxing.aztec.detector.Detector.*",
+			"android.*",
+			"com.taobao.android.runtime.*",
+			"com.taobao.android.dex.interpret.ARTUtils",		
+		]
+
+	},
+
+
+
+	"enhanceCfg" : {
+		"servictType":"java2c",
+		"jprotectVersion" : "latestVersion",
+		"secCompilerType" : "ndkseccompiler",
+		"secCompilerVersion" : "latestVersion",
+		"userKey" : "224443D1EA4D02C842EB783D736582CD18072503",
+		"hostUrl" : "https://jg.alibaba-inc.com"	
+	}
+
+}

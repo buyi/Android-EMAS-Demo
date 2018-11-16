@@ -1,0 +1,12 @@
+{
+	"other":[],
+	"main":[
+		{
+			"artifact":"FirstBundle",
+			"type":"awb",
+			"version":"1.6.11512",
+			"group":"com.taobao.android"
+		}
+	],
+	"exclude":[]
+}
